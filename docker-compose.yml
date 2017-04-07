@@ -9,4 +9,4 @@ services:
       image: drupal
       container_name: drupal-${JOB_BASE_NAME}
       environment:
-        - VIRTUAL_HOST=${JOB_BASE_NAME}.drupal.localhost
+        - VIRTUAL_HOST=drupal.${JOB_BASE_NAME}.localhost
