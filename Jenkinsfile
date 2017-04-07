@@ -1,4 +1,4 @@
-properties([overrideIndexTriggers(true), pipelineTriggers([[$class: 'PeriodicFolderTrigger', interval: '1m']])])
+properties([pipelineTriggers([[$class: 'PeriodicFolderTrigger', interval: '1m']])])
 
 node {
    stage('Checkout') {
