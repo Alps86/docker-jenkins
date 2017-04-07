@@ -3,7 +3,7 @@ node {
         checkout scm
    }
    stage('Build') {
-        sh 'docker-compose ps'
+        sh 'docker-compose up -d'
    }
    stage('Results') {
         docker.image('alpine').inside {
