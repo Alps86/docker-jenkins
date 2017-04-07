@@ -10,3 +10,4 @@ services:
       container_name: drupal.${BRANCH_NAME}.localhost
       environment:
         - VIRTUAL_HOST=drupal.${BRANCH_NAME}.localhost
+
