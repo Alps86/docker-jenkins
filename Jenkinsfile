@@ -1,5 +1,6 @@
+properties([overrideIndexTriggers(true), pipelineTriggers([[$class: 'PeriodicFolderTrigger', interval: '1m']])])
+
 node {
-   properties([overrideIndexTriggers(true), pipelineTriggers([[$class: 'PeriodicFolderTrigger', interval: '1m']])])
    stage('Checkout') {
         checkout scm
    }
