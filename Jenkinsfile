@@ -16,6 +16,6 @@ node {
 
 def getBranchName(String branch) {
     sh 'echo $BRANCH_NAME | sed "s/\\//-/g" > .git/branchName'
-    branchName = readFile('.git/branchName')
+    branchName = readFile('.git/branchName').trim()
     return branchName;
 }
