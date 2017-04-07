@@ -11,10 +11,10 @@ services:
        - /var/lib/mysql
      restart: always
      environment:
-       MYSQL_ROOT_PASSWORD: test
-       MYSQL_DATABASE: test
-       MYSQL_USER: test
-       MYSQL_PASSWORD: test
+       - MYSQL_ROOT_PASSWORD=test
+       - MYSQL_DATABASE=test
+       - MYSQL_USER=test
+       - MYSQL_PASSWORD=test
   drupal:
       image: drupal
       container_name: drupal.${BRANCH_NAME}.localhost
