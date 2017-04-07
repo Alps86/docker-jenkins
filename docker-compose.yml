@@ -7,6 +7,6 @@ networks:
 services:
   drupal:
       image: drupal
-      container_name: drupal-${JOB_BASE_NAME}
+      container_name: drupal.${JOB_BASE_NAME}.localhost
       environment:
         - VIRTUAL_HOST=drupal.${JOB_BASE_NAME}.localhost
