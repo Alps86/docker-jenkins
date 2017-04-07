@@ -7,6 +7,6 @@ networks:
 services:
   drupal:
       image: wordpress
-      container_name: drupal.${JOB_BASE_NAME}.localhost
+      container_name: drupal.${BRANCH_NAME}.localhost
       environment:
-        - VIRTUAL_HOST=drupal.${JOB_BASE_NAME}.localhost
+        - VIRTUAL_HOST=drupal.${BRANCH_NAME}.localhost
