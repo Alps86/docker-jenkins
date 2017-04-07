@@ -5,8 +5,33 @@ networks:
       name: nginx-proxy
 
 services:
+# Drupal with PostgreSQL
+#
+# Access via "http://localhost:8080"
+#   (or "http://$(docker-machine ip):8080" if using docker-machine)
+#
+# During initial Drupal setup,
+# Database type: PostgreSQL
+# Database name: postgres
+# Database username: postgres
+# Database password: example
+# ADVANCED OPTIONS; Database host: postgres
+  postgres:
+      image: postgres:9.6
+      environment:
+        - POSTGRES_PASSWORD=test
+      restart: always
   drupal:
       image: drupal
       container_name: drupal.${BRANCH_NAME}.localhost
+      depends_on:
+         - postgres
       environment:
         - VIRTUAL_HOST=drupal.${BRANCH_NAME}.localhost
+      volumes:
+        - ./code/modules:/var/www/html/modules
+        - ./code/themes:/var/www/html/themes
+        # this takes advantage of the feature in Docker that a new anonymous
+        # volume (which is what we're creating here) will be initialized with the
+        # existing content of the image at the same location
+       # - ./code/modules:/var/www/html/sites
