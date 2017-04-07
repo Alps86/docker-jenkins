@@ -1,0 +1,44 @@
+version: '2'
+networks:
+  default:
+    external:
+      name: nginx-proxy
+
+services:
+  nginx-proxy:
+    image: jwilder/nginx-proxy:0.6.0
+    container_name: nginx-proxy
+    ports:
+      - "80:80"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+
+  app1:
+    image: jwilder/whoami
+    container_name: app1
+    environment:
+      - VIRTUAL_HOST=app1.localhost
+
+  app2:
+    image: jwilder/whoami
+    container_name: app2
+    environment:
+      - VIRTUAL_HOST=app2.localhost
+
+  app3:
+      image: nginx
+      container_name: app3
+      environment:
+        - VIRTUAL_HOST=app3.localhost
+
+  app4:
+      image: wordpress
+      container_name: app4
+      environment:
+        - VIRTUAL_HOST=app4.localhost
+
+  app5:
+      image: drupal
+      container_name: app5
+      environment:
+        - VIRTUAL_HOST=app5.localhost
