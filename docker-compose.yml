@@ -5,8 +5,8 @@ networks:
       name: nginx-proxy
 
 services:
-  drupal:
+  drupal-${JOB_BASE_NAME}:
       image: drupal
-      container_name: drupal-${TEST}
+      container_name: drupal-${JOB_BASE_NAME}
       environment:
-        - VIRTUAL_HOST=drupal.localhost
+        - VIRTUAL_HOST=${JOB_BASE_NAME}.drupal.localhost
