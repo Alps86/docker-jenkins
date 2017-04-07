@@ -3,12 +3,9 @@ node {
         checkout scm
    }
    stage('Build') {
-        env.branchName = getBranchName(env.BRANCH_NAME)
-
-        withEnv(['BRANCHE_NAME2=${branchName}']) {
-            sh 'printenv'
-            sh 'docker-compose up -d --force-recreate'
-        }
+        env.$BRANCH_NAME = getBranchName(env.BRANCH_NAME)
+        sh 'printenv'
+        sh 'docker-compose up -d --force-recreate'
    }
    stage('Results') {
         docker.image('alpine').inside {
@@ -20,6 +17,5 @@ node {
 def getBranchName(String branch) {
     sh 'echo $BRANCH_NAME | sed "s/\\//-/g" > .git/branchName'
     branchName = readFile('.git/branchName')
-    echo "${branchName}"
     return branchName;
 }
