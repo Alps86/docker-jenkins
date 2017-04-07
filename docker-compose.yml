@@ -5,7 +5,7 @@ networks:
       name: nginx-proxy
 
 services:
-  drupal-${JOB_BASE_NAME}:
+  drupal:
       image: drupal
       container_name: drupal-${JOB_BASE_NAME}
       environment:
