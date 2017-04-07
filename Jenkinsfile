@@ -4,7 +4,6 @@ node {
    }
    stage('Build') {
         env.BRANCH_NAME = getBranchName(env.BRANCH_NAME)
-        sh 'printenv'
         sh 'docker-compose up -d --force-recreate'
    }
    stage('Results') {
@@ -15,7 +14,7 @@ node {
 }
 
 def getBranchName(String branch) {
-    sh 'echo $BRANCH_NAME | sed "s/\\//-/g" > .git/branchName'
+    sh 'echo $BRANCH_NAME | sed "s/\\//./g" > .git/branchName'
     branchName = readFile('.git/branchName').trim()
     return branchName;
 }
