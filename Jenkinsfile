@@ -3,7 +3,7 @@ node {
         checkout scm
    }
    stage('Build') {
-        getBranchName()
+        getBranchName(env.BRANCH_NAME)
 
         withEnv(['BRANCHE_NAME2=${test}']) {
             sh 'printenv'
