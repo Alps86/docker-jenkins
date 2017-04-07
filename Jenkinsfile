@@ -3,9 +3,9 @@ node {
         checkout scm
    }
    stage('Build') {
-        getBranchName(env.BRANCH_NAME)
+        def branchName = getBranchName(env.BRANCH_NAME)
 
-        withEnv(['BRANCHE_NAME2=${test}']) {
+        withEnv(['BRANCHE_NAME2=${branchName}']) {
             sh 'printenv'
             sh 'docker-compose up -d --force-recreate'
         }
