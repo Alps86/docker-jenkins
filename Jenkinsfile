@@ -3,7 +3,7 @@ node {
         checkout scm
    }
    stage('Build') {
-        sh 'export test=$(echo $BRANCH_NAME | sed "s/\\//-/g")'
+        getBranchName()
 
         withEnv(['BRANCHE_NAME2=${test}']) {
             sh 'printenv'
@@ -15,4 +15,10 @@ node {
             echo 'Results';
         }
    }
+}
+
+def getBranchName(String branch) {
+    sh 'echo $BRANCH_NAME | sed "s/\\//-/g") > .git/branchName"
+    branchName = readFile('.git/branchName')
+    echo "${branchName}"
 }
