@@ -1,5 +1,3 @@
-properties([pipelineTriggers([[$class: 'PeriodicFolderTrigger', interval: '1m']])])
-
 node {
    stage('Checkout') {
         checkout scm
