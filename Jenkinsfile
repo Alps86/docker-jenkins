@@ -3,7 +3,9 @@ node {
         checkout scm
    }
    stage('Build') {
-        withEnv(['BRANCHE_NAME=$(echo $BRANCH_NAME | sed "s/\\//-/g")']) {
+        sh 'export test=$(echo $BRANCH_NAME | sed "s/\\//-/g")'
+
+        withEnv(['BRANCHE_NAME2=$(echo $test | sed "s/\\//-/g")']) {
             sh 'printenv'
             sh 'docker-compose up -d --force-recreate'
         }
