@@ -5,16 +5,22 @@ networks:
       name: nginx-proxy
 
 services:
-  db:
-     image: mysql:5.7
-     volumes:
-       - /var/lib/mysql
-     restart: always
-     environment:
-       - MYSQL_ROOT_PASSWORD=test
-       - MYSQL_DATABASE=test
-       - MYSQL_USER=test
-       - MYSQL_PASSWORD=test
+# Drupal with PostgreSQL
+#
+# Access via "http://localhost:8080"
+#   (or "http://$(docker-machine ip):8080" if using docker-machine)
+#
+# During initial Drupal setup,
+# Database type: PostgreSQL
+# Database name: postgres
+# Database username: postgres
+# Database password: example
+# ADVANCED OPTIONS; Database host: postgres
+  postgres:
+      image: postgres:9.6
+      environment:
+        - POSTGRES_PASSWORD=test
+      restart: always
   drupal:
       image: drupal
       container_name: drupal.${BRANCH_NAME}.localhost
