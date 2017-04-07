@@ -1,15 +1,9 @@
 node {
    stage('Preparation') {
-        sh 'docker-compose ps'
-
-        docker.image('alpine').inside {
-            echo 'Preparation';
-        }
+        checkout scm
    }
    stage('Build') {
-        docker.image('alpine').inside {
-            echo 'Build';
-        }
+        sh 'docker-compose ps'
    }
    stage('Results') {
         docker.image('alpine').inside {
