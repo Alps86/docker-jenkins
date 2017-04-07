@@ -1,5 +1,6 @@
 node {
-   stage('Preparation') { // for display purposes
+   stage('Preparation') {
+        sh 'docker-compose ps'
         docker.image('alpine').inside {
             echo 'Preparation';
         }
