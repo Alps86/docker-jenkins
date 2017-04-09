@@ -5,6 +5,7 @@ node {
    stage('Build') {
         sh 'ls -al app/'
         sh 'make docker-build'
+        sh 'make copy-data'
    }
    stage('Composer') {
         sh 'make composer'
