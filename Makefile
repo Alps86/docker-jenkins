@@ -3,10 +3,8 @@ docker-build:
 
 copy-data:
 	docker cp ./app data.${BRANCH_NAME}.localhost:/
-	#docker cp ./app php.${BRANCH_NAME}.localhost:/app
 
 composer:
-	docker-compose run composer ls -al /app/
 	docker-compose run composer install
 
 phpcs-ci:
