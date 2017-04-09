@@ -13,7 +13,7 @@ node {
    stage('Composer') {
         sh 'make composer'
    }
-   stage('Checkstyle') {
+   stage('Static Code Anaylse') {
       parallel Checkstyle: {
          try {
                sh 'make phpcs-ci'
