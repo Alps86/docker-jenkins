@@ -20,7 +20,8 @@ node {
             //currentBuild.result = "FAILURE"
       }
       sh 'make copy-build-data'
-      sh 'cat app/build/checkstyle.xml'
+      sh 'cat app/build/phpcs.xml'
+      step([$class: 'hudson.plugins.checkstyle.CheckStylePublisher', checkstyle: 'app/build/phpcs.xml'])
    }
    stage('Results') {
         docker.image('alpine').inside {
