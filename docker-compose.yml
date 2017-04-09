@@ -24,12 +24,6 @@ services:
   composer:
     image: composer
     container_name: composer.${BRANCH_NAME}.localhost
-    volumes_from:
-      - data
-  data:
-    image: data.${BRANCH_NAME}.localhost
-    build: .
-    container_name: data.${BRANCH_NAME}.localhost
     volumes:
       - ./app:/app
   php:
@@ -37,8 +31,8 @@ services:
     container_name: php.${BRANCH_NAME}.localhost
     working_dir: /app/src
     entrypoint: php
-    volumes_from:
-      - data
+    volumes:
+      - ./app:/app
   drupal:
       image: drupal
       container_name: drupal.${BRANCH_NAME}.localhost
@@ -46,9 +40,9 @@ services:
          - postgres
       environment:
         - VIRTUAL_HOST=drupal.${BRANCH_NAME}.localhost
-      volumes:
-        - ./code/modules:/var/www/html/modules
-        - ./code/themes:/var/www/html/themes
+      #volumes:
+      #  - ./code/modules:/var/www/html/modules
+      #  - ./code/themes:/var/www/html/themes
         # this takes advantage of the feature in Docker that a new anonymous
         # volume (which is what we're creating here) will be initialized with the
         # existing content of the image at the same location
