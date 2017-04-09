@@ -14,20 +14,22 @@ node {
         sh 'make composer'
    }
    stage('Checkstyle') {
-      try {
-            sh 'make phpcs-ci'
-      }
-      catch (err) {
-            //currentBuild.result = "FAILURE"
-      }
-   }
-   stage('PMD') {
+      parallel Checkstyle: {
          try {
-               sh 'make phpmd-ci'
+               sh 'make phpcs-ci'
          }
          catch (err) {
                //currentBuild.result = "FAILURE"
          }
+       }, PMD: {
+          try {
+              sh 'make phpmd-ci'
+          }
+          catch (err) {
+              //currentBuild.result = "FAILURE"
+          }
+       },
+       failFast: false
    }
    stage('Results') {
         sh 'make copy-build-data'
