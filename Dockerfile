@@ -1,1 +1,3 @@
 FROM busybox
+
+VOLUME /app
