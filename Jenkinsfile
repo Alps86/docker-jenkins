@@ -6,7 +6,7 @@ node {
         env.BRANCH_NAME = getBranchName("${env.BRANCH_NAME}")
         sh 'ls -al app/'
         sh 'make docker-build'
-        sh 'make copy-data'
+        #sh 'make copy-data'
    }
    stage('Composer') {
         sh 'make composer'
