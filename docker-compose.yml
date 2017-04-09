@@ -25,6 +25,8 @@ services:
       image: data.${BRANCH_NAME}.localhost
       container_name: data.${BRANCH_NAME}.localhost
       build: .
+      volumes:
+        - ./app:/app
   composer:
       image: composer
       container_name: composer.${BRANCH_NAME}.localhost

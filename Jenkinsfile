@@ -20,9 +20,7 @@ node {
             //currentBuild.result = "FAILURE"
       }
       sh 'make copy-build-data'
-      sh 'cat app/build/phpcs.xml'
-      //step([$class: 'hudson.plugins.checkstyle.CheckStylePublisher', checkstyle: 'app/build/phpcs.xml'])
-      step([$class: 'CheckStylePublisher', pattern: 'app/build/phpcs.xml'])
+      step([$class: 'CheckStylePublisher', pattern: 'app/build/logs/phpcs.xml'])
 
    }
    stage('Results') {

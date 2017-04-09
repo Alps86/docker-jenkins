@@ -1,3 +1,10 @@
 <?php
 
-echo 'ewfewfeefewf';
+class test {
+    private $test;
+
+    private function test()
+    {
+
+    }
+}
