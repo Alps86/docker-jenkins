@@ -1,10 +1,8 @@
 node {
    properties([disableConcurrentBuilds(), pipelineTriggers([])])
    currentBuild.result = "SUCCESS"
-   stage('Checkout') {
-        checkout scm
-   }
    stage('Build') {
+        checkout scm
         env.BRANCH_NAME = getBranchName("${env.BRANCH_NAME}")
         sh 'make docker-build'
         sh 'docker-compose up -d --force-recreate'
