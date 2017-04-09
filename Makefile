@@ -2,8 +2,8 @@ docker-build:
 	docker-compose build
 
 copy-data:
-	docker cp ./app composer.${BRANCH_NAME}.localhost:/app
-	docker cp ./app php.${BRANCH_NAME}.localhost:/app
+	docker cp ./app data.${BRANCH_NAME}.localhost:/
+	#docker cp ./app php.${BRANCH_NAME}.localhost:/app
 
 composer:
 	docker-compose run composer ls -al /app/
