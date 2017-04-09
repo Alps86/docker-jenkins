@@ -13,3 +13,5 @@ phpcs-ci:
 phpcs:
 	docker-compose run php /app/vendor/squizlabs/php_codesniffer/scripts/phpcs --standard=PSR2 --extensions=php /app/src/
 
+copy-data-from-docker:
+	docker cp data.${BRANCH_NAME}.localhost:/ ./app

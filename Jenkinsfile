@@ -24,6 +24,7 @@ node {
    }
    catch (err) {
        currentBuild.result = "FAILURE"
+       sh 'make copy-data-from-docker'
        sh 'cat app/build/checkstyle.xml'
 
        throw err
