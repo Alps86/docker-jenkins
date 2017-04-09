@@ -6,7 +6,7 @@ copy-data:
 	docker cp ./app php.${BRANCH_NAME}.localhost:/app
 
 composer:
-	docker-compose run composer ls -al app/
+	docker-compose run composer ls -al /app/
 	docker-compose run composer install
 
 phpcs-ci:
