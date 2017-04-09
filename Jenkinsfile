@@ -5,8 +5,11 @@ node {
    stage('Build') {
         sh 'docker-compose build'
    }
+   stage('Composer') {
+        sh 'docker-compose run composer install'
+   }
    stage('Checkstyle') {
-       sh 'make phpcs-ci'
+       sh 'docker-compose run php /app/vendor/squizlabs/php_codesniffer/scripts/phpcs --report=checkstyle --report-file=/app/build/checkstyle.xml /app/src/'
    }
    stage('Start') {
         env.BRANCH_NAME = getBranchName("${env.BRANCH_NAME}")
