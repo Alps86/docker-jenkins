@@ -34,9 +34,7 @@ node {
         step([$class: 'PmdPublisher', canComputeNew: false, defaultEncoding: '', healthy: '', pattern: 'app/build/logs/pmd.xml', unHealthy: ''])
    }
    stage('Results') {
-        docker.image('alpine').inside {
-            echo 'Results';
-        }
+        step([$class: 'AnalysisPublisher', canComputeNew: false, canRunOnFailed: true, defaultEncoding: '', healthy: '', unHealthy: ''])
    }
 }
 
