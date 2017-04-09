@@ -24,7 +24,7 @@ services:
   composer:
     image: composer
     container_name: composer.${BRANCH_NAME}.localhost
-    volumes:_from:
+    volumes_from:
       - data
   data:
     image: data.${BRANCH_NAME}.localhost
@@ -35,7 +35,7 @@ services:
     container_name: php.${BRANCH_NAME}.localhost
     working_dir: /app/src
     entrypoint: php
-    volumes:_from:
+    volumes_from:
       - data
   drupal:
       image: drupal
