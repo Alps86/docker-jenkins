@@ -15,12 +15,7 @@ node {
    }
    stage('Static Code Anaylse') {
       parallel Checkstyle: {
-         try {
                sh 'make phpcs-ci'
-         }
-         catch (err) {
-               //currentBuild.result = "FAILURE"
-         }
        }, PMD: {
           try {
               sh 'make phpmd-ci'
@@ -35,7 +30,7 @@ node {
         sh 'make copy-build-data'
         step([$class: 'CheckStylePublisher', pattern: 'app/build/logs/phpcs.xml'])
         step([$class: 'PmdPublisher', canComputeNew: false, defaultEncoding: '', healthy: '', pattern: 'app/build/logs/pmd.xml', unHealthy: ''])
-        step([$class: 'AnalysisPublisher', canComputeNew: false, canRunOnFailed: true, defaultEncoding: '', healthy: '', unHealthy: ''])
+        //step([$class: 'AnalysisPublisher', canComputeNew: false, canRunOnFailed: true, defaultEncoding: '', healthy: '', unHealthy: ''])
        // if (fileExists 'app/build/logs/junit.xml') {
        //     junit 'app/build/logs/junit.xml'
         //}
