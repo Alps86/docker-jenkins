@@ -13,12 +13,7 @@ node {
             sh 'make composer'
        }
        stage('Checkstyle') {
-           // This step should not normally be used in your script. Consult the inline help for details.
-           catchError {
-               sh 'make phpcs-ci'
-           }
-
-
+           sh 'make phpcs-ci'
        }
        stage('Results') {
             docker.image('alpine').inside {
