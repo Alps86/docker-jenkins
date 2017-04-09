@@ -34,9 +34,9 @@ node {
         step([$class: 'CheckStylePublisher', pattern: 'app/build/logs/phpcs.xml'])
         step([$class: 'PmdPublisher', canComputeNew: false, defaultEncoding: '', healthy: '', pattern: 'app/build/logs/pmd.xml', unHealthy: ''])
         step([$class: 'AnalysisPublisher', canComputeNew: false, canRunOnFailed: true, defaultEncoding: '', healthy: '', unHealthy: ''])
-        if (fileExists 'app/build/logs/junit.xml') {
-            junit 'app/build/logs/junit.xml'
-        }
+       // if (fileExists 'app/build/logs/junit.xml') {
+       //     junit 'app/build/logs/junit.xml'
+        //}
    }
 }
 
