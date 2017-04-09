@@ -3,10 +3,10 @@ node {
         checkout scm
    }
    stage('Build') {
+        sh 'ls -al app/'
         sh 'docker-compose build'
    }
    stage('Composer') {
-        sh 'ls -al app/'
         sh 'docker-compose run composer install'
    }
    stage('Checkstyle') {
