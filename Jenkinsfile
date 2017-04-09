@@ -1,5 +1,6 @@
 node {
    try {
+       currentBuild.result = "SUCCESS"
        stage('Checkout') {
             checkout scm
        }
@@ -22,10 +23,11 @@ node {
        }
    }
    catch (err) {
+       currentBuild.result = "FAILURE"
        sh 'cat app/build/checkstyle.xml'
 
        throw err
-    }
+   }
 }
 
 def getBranchName(String branch) {
