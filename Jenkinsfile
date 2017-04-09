@@ -1,4 +1,5 @@
 node {
+   properties([disableConcurrentBuilds(), pipelineTriggers([])])
    currentBuild.result = "SUCCESS"
    stage('Checkout') {
         checkout scm
@@ -30,7 +31,7 @@ node {
                //currentBuild.result = "FAILURE"
          }
         sh 'make copy-build-data'
-        step([$class: 'PMDPublisher', pattern: 'app/build/logs/phpmd.xml'])
+        step([$class: 'PmdPublisher', canComputeNew: false, defaultEncoding: '', healthy: '', pattern: 'app/build/logs/pmd.xml', unHealthy: ''])
    }
    stage('Results') {
         docker.image('alpine').inside {
