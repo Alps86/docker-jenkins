@@ -1,3 +1,3 @@
 FROM busybox
 
-ADD app /app
+ADD ./app /app
