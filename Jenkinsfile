@@ -21,7 +21,16 @@ node {
       }
       sh 'make copy-build-data'
       step([$class: 'CheckStylePublisher', pattern: 'app/build/logs/phpcs.xml'])
-
+   }
+   stage('PMD') {
+         try {
+               sh 'make phpmd-ci'
+         }
+         catch (err) {
+               //currentBuild.result = "FAILURE"
+         }
+        sh 'make copy-build-data'
+        step([$class: 'PMDPublisher', pattern: 'app/build/logs/phpmd.xml'])
    }
    stage('Results') {
         docker.image('alpine').inside {

@@ -1,2 +1,2 @@
 /app/vendor
-/app/build/checkstyle.xml
+/app/build/logs/*
