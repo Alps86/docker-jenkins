@@ -1,5 +1,4 @@
 FROM busybox
 
-ADD app /app
-
 VOLUME /app
+ADD app /app
