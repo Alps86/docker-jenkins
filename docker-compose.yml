@@ -30,6 +30,8 @@ services:
     image: data.${BRANCH_NAME}.localhost
     build: .
     container_name: data.${BRANCH_NAME}.localhost
+    volumes:
+      - ./app:/app
   php:
     image: php
     container_name: php.${BRANCH_NAME}.localhost
