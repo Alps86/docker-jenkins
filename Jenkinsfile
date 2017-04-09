@@ -19,7 +19,7 @@ node {
                sh 'make phpcs-ci'
          }
          catch (err) {
-               currentBuild.result = "WARNING"
+               //currentBuild.result = "WARNING"
          }
        }, PMD: {
           try {
