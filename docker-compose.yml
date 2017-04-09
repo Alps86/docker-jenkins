@@ -28,6 +28,7 @@ services:
   composer:
       image: composer
       container_name: composer.${BRANCH_NAME}.localhost
+      working_dir: /app
       volumes_from:
         - data
   php:
