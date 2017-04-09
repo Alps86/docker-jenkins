@@ -35,6 +35,7 @@ node {
    }
    stage('Results') {
         step([$class: 'AnalysisPublisher', canComputeNew: false, canRunOnFailed: true, defaultEncoding: '', healthy: '', unHealthy: ''])
+        junit 'app/build/logs/junit.xml'
    }
 }
 
