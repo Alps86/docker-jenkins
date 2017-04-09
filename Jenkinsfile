@@ -19,6 +19,8 @@ node {
       catch (err) {
             //currentBuild.result = "FAILURE"
       }
+      sh 'make copy-build-data'
+      sh 'cat app/build/checkstyle.xml'
    }
    stage('Results') {
         docker.image('alpine').inside {
