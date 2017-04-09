@@ -15,7 +15,12 @@ node {
    }
    stage('Static Code Anaylse') {
       parallel Checkstyle: {
+         try {
                sh 'make phpcs-ci'
+         }
+         catch (err) {
+               currentBuild.result = "WARNING"
+         }
        }, PMD: {
           try {
               sh 'make phpmd-ci'
