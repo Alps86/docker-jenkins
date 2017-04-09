@@ -5,6 +5,8 @@ node {
    stage('Build') {
         sh 'ls -al app/'
         sh 'make docker-build'
+        env.BRANCH_NAME = getBranchName("${env.BRANCH_NAME}")
+        sh 'docker-compose up -d --force-recreate'
         sh 'make copy-data'
    }
    stage('Composer') {
@@ -12,10 +14,6 @@ node {
    }
    stage('Checkstyle') {
        sh 'make phpcs-ci'
-   }
-   stage('Start') {
-        env.BRANCH_NAME = getBranchName("${env.BRANCH_NAME}")
-        sh 'docker-compose up -d --force-recreate'
    }
    stage('Results') {
         docker.image('alpine').inside {

@@ -35,7 +35,7 @@ services:
   php:
       image: php
       container_name: php.${BRANCH_NAME}.localhost
-      working_dir: /app/src
+      working_dir: /app
       entrypoint: php
       volumes_from:
         - data
