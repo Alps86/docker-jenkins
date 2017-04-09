@@ -21,6 +21,18 @@ services:
       environment:
         - POSTGRES_PASSWORD=test
       restart: always
+  composer:
+    image: composer
+    container_name: composer.${BRANCH_NAME}.localhost
+    volumes:
+      - ./app/:/app
+  php:
+    image: php
+    container_name: php.${BRANCH_NAME}.localhost
+    working_dir: /app/src
+    entrypoint: php
+    volumes:
+      - ./app/:/app
   drupal:
       image: drupal
       container_name: drupal.${BRANCH_NAME}.localhost

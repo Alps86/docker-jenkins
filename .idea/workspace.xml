@@ -2,7 +2,590 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4a9881a-4f3d-445d-a908-dcd909e9a06f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/test.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/.csslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/.githooks.js.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/autoload-fix.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/bootstrap.api.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/bootstrap.breakpoints.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/bootstrap.drush.inc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/bootstrap.info.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/bootstrap.libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/bootstrap.theme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/config/install/bootstrap.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/config/optional/block.block.bootstrap_account_menu.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/config/optional/block.block.bootstrap_branding.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/config/optional/block.block.bootstrap_breadcrumbs.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/config/optional/block.block.bootstrap_content.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/config/optional/block.block.bootstrap_footer.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/config/optional/block.block.bootstrap_help.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/config/optional/block.block.bootstrap_local_actions.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/config/optional/block.block.bootstrap_local_tasks.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/config/optional/block.block.bootstrap_main_menu.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/config/optional/block.block.bootstrap_messages.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/config/optional/block.block.bootstrap_page_title.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/config/optional/block.block.bootstrap_powered.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/config/optional/block.block.bootstrap_search.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/config/optional/block.block.bootstrap_tools.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/config/schema/bootstrap.schema.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.0/overrides-amelia.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.0/overrides-cerulean.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.0/overrides-cosmo.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.0/overrides-cyborg.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.0/overrides-flatly.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.0/overrides-journal.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.0/overrides-readable.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.0/overrides-simplex.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.0/overrides-slate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.0/overrides-spacelab.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.0/overrides-united.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.0/overrides.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.1/overrides-amelia.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.1/overrides-cerulean.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.1/overrides-cosmo.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.1/overrides-cyborg.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.1/overrides-flatly.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.1/overrides-journal.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.1/overrides-readable.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.1/overrides-simplex.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.1/overrides-slate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.1/overrides-spacelab.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.1/overrides-united.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.1/overrides.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.2/overrides-amelia.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.2/overrides-cerulean.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.2/overrides-cosmo.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.2/overrides-cyborg.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.2/overrides-flatly.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.2/overrides-journal.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.2/overrides-readable.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.2/overrides-simplex.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.2/overrides-slate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.2/overrides-spacelab.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.2/overrides-united.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.2/overrides-yeti.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.2/overrides.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.3/overrides-amelia.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.3/overrides-cerulean.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.3/overrides-cosmo.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.3/overrides-cyborg.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.3/overrides-flatly.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.3/overrides-journal.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.3/overrides-readable.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.3/overrides-simplex.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.3/overrides-slate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.3/overrides-spacelab.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.3/overrides-united.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.3/overrides-yeti.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.0.3/overrides.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.0/overrides-amelia.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.0/overrides-cerulean.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.0/overrides-cosmo.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.0/overrides-cyborg.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.0/overrides-flatly.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.0/overrides-journal.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.0/overrides-lumen.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.0/overrides-readable.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.0/overrides-simplex.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.0/overrides-slate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.0/overrides-spacelab.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.0/overrides-superhero.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.0/overrides-united.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.0/overrides-yeti.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.0/overrides.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.1/overrides-amelia.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.1/overrides-cerulean.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.1/overrides-cosmo.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.1/overrides-cyborg.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.1/overrides-darkly.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.1/overrides-flatly.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.1/overrides-journal.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.1/overrides-lumen.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.1/overrides-readable.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.1/overrides-simplex.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.1/overrides-slate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.1/overrides-spacelab.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.1/overrides-superhero.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.1/overrides-united.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.1/overrides-yeti.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.1.1/overrides.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.2.0/overrides-amelia.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.2.0/overrides-cerulean.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.2.0/overrides-cosmo.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.2.0/overrides-cyborg.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.2.0/overrides-darkly.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.2.0/overrides-flatly.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.2.0/overrides-journal.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.2.0/overrides-lumen.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.2.0/overrides-paper.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.2.0/overrides-readable.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.2.0/overrides-sandstone.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.2.0/overrides-simplex.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.2.0/overrides-slate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.2.0/overrides-spacelab.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.2.0/overrides-superhero.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.2.0/overrides-united.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.2.0/overrides-yeti.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.2.0/overrides.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.0/overrides-amelia.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.0/overrides-cerulean.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.0/overrides-cosmo.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.0/overrides-cyborg.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.0/overrides-darkly.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.0/overrides-flatly.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.0/overrides-journal.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.0/overrides-lumen.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.0/overrides-paper.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.0/overrides-readable.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.0/overrides-sandstone.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.0/overrides-simplex.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.0/overrides-slate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.0/overrides-spacelab.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.0/overrides-superhero.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.0/overrides-united.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.0/overrides-yeti.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.0/overrides.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.1/overrides-cerulean.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.1/overrides-cosmo.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.1/overrides-cyborg.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.1/overrides-darkly.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.1/overrides-flatly.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.1/overrides-journal.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.1/overrides-lumen.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.1/overrides-paper.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.1/overrides-readable.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.1/overrides-sandstone.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.1/overrides-simplex.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.1/overrides-slate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.1/overrides-spacelab.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.1/overrides-superhero.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.1/overrides-united.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.1/overrides-yeti.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.1/overrides.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.2/overrides-cerulean.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.2/overrides-cosmo.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.2/overrides-cyborg.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.2/overrides-darkly.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.2/overrides-flatly.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.2/overrides-journal.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.2/overrides-lumen.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.2/overrides-paper.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.2/overrides-readable.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.2/overrides-sandstone.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.2/overrides-simplex.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.2/overrides-slate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.2/overrides-spacelab.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.2/overrides-superhero.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.2/overrides-united.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.2/overrides-yeti.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.2/overrides.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.4/overrides-cerulean.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.4/overrides-cosmo.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.4/overrides-cyborg.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.4/overrides-darkly.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.4/overrides-flatly.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.4/overrides-journal.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.4/overrides-lumen.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.4/overrides-paper.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.4/overrides-readable.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.4/overrides-sandstone.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.4/overrides-simplex.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.4/overrides-slate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.4/overrides-spacelab.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.4/overrides-superhero.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.4/overrides-united.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.4/overrides-yeti.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.4/overrides.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.5/overrides-cerulean.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.5/overrides-cosmo.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.5/overrides-cyborg.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.5/overrides-darkly.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.5/overrides-flatly.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.5/overrides-journal.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.5/overrides-lumen.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.5/overrides-paper.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.5/overrides-readable.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.5/overrides-sandstone.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.5/overrides-simplex.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.5/overrides-slate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.5/overrides-spacelab.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.5/overrides-superhero.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.5/overrides-united.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.5/overrides-yeti.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.5/overrides.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.6/overrides-cerulean.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.6/overrides-cosmo.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.6/overrides-cyborg.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.6/overrides-darkly.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.6/overrides-flatly.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.6/overrides-journal.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.6/overrides-lumen.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.6/overrides-paper.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.6/overrides-readable.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.6/overrides-sandstone.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.6/overrides-simplex.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.6/overrides-slate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.6/overrides-spacelab.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.6/overrides-superhero.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.6/overrides-united.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.6/overrides-yeti.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.6/overrides.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.7/overrides-cerulean.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.7/overrides-cosmo.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.7/overrides-cyborg.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.7/overrides-darkly.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.7/overrides-flatly.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.7/overrides-journal.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.7/overrides-lumen.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.7/overrides-paper.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.7/overrides-readable.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.7/overrides-sandstone.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.7/overrides-simplex.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.7/overrides-slate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.7/overrides-spacelab.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.7/overrides-superhero.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.7/overrides-united.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.7/overrides-yeti.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/3.3.7/overrides.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/css/images/required.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/deprecated.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/docs/Contributing.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/docs/Getting-Started.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/docs/Maintainers.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/docs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/docs/Sub-Theming.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/docs/Templates.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/docs/Theme-Settings.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/docs/Utility.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/docs/plugins/Alter.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/docs/plugins/Form.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/docs/plugins/Preprocess.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/docs/plugins/Prerender.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/docs/plugins/Process.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/docs/plugins/Provider.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/docs/plugins/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/docs/plugins/Setting.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/docs/plugins/Update.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/grunt/clean-vendor-dirs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/grunt/compile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/grunt/config/autoprefixer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/grunt/config/clean.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/grunt/config/csslint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/grunt/config/cssmin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/grunt/config/githooks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/grunt/config/watch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/grunt/sync.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/icons.inc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/js/attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/js/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/js/drupal.bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/js/misc/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/js/misc/autocomplete.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/js/misc/batch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/js/misc/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/js/misc/dialog.ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/js/misc/dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/js/misc/form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/js/misc/progress.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/js/misc/states.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/js/misc/tabledrag.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/js/misc/vertical-tabs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/js/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/js/modules/filter/filter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/js/modules/views/ajax_view.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/js/popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/js/text/text.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/js/theme-settings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/js/theme.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/js/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/screenshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Annotation/BootstrapAlter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Annotation/BootstrapConstant.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Annotation/BootstrapForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Annotation/BootstrapPreprocess.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Annotation/BootstrapPrerender.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Annotation/BootstrapProcess.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Annotation/BootstrapProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Annotation/BootstrapSetting.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Annotation/BootstrapUpdate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Annotation/PluginCallback.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Alter/AlterInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Alter/ElementInfo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Alter/LibraryInfo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Alter/PageAttachments.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Alter/ThemeRegistry.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Alter/ThemeSuggestions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/AlterManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Form/FormBase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Form/FormInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Form/NodePreviewFormSelect.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Form/SearchBlockForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Form/SearchForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Form/SystemThemeSettings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/FormManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/PluginBase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/PluginManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Preprocess/BootstrapCarousel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Preprocess/BootstrapDropdown.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Preprocess/BootstrapModal.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Preprocess/BootstrapPanel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Preprocess/Breadcrumb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Preprocess/FieldMultipleValueForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Preprocess/FileLink.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Preprocess/FileUploadHelp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Preprocess/FilterTips.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Preprocess/FormElement.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Preprocess/FormElementLabel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Preprocess/ImageWidget.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Preprocess/Input.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Preprocess/InputButton.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Preprocess/Links.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Preprocess/MenuLocalAction.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Preprocess/Page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Preprocess/PreprocessBase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Preprocess/PreprocessInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Preprocess/ProgressBar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Preprocess/Region.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Preprocess/Select.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Preprocess/Table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Preprocess/ViewsViewTable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/PreprocessManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Prerender/Dropbutton.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Prerender/Link.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Prerender/Operations.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Prerender/PrerenderBase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Prerender/PrerenderInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/PrerenderManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Process/Actions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Process/ActionsDropbutton.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Process/ManagedFile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Process/ProcessBase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Process/ProcessInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Process/Search.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Process/TextFormat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/ProcessManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Provider/Custom.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Provider/JsDelivr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Provider/ProviderBase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Provider/ProviderInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/ProviderManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/Advanced/Cdn/CdnCustomCss.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/Advanced/Cdn/CdnCustomCssMin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/Advanced/Cdn/CdnCustomJs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/Advanced/Cdn/CdnCustomJsMin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/Advanced/Cdn/CdnJsdelivrTheme.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/Advanced/Cdn/CdnJsdelivrVersion.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/Advanced/Cdn/CdnProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/Advanced/IncludeDeprecated.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/Advanced/SuppressDeprecatedWarnings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/Components/Breadcrumbs/Breadcrumb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/Components/Breadcrumbs/BreadcrumbHome.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/Components/Breadcrumbs/BreadcrumbTitle.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/Components/Navbar/NavbarInverse.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/Components/Navbar/NavbarPosition.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/Components/Region/RegionWells.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/General/Buttons/ButtonColorize.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/General/Buttons/ButtonIconize.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/General/Buttons/ButtonSize.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/General/Container/FluidContainer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/General/Forms/FormsHasErrorValueToggle.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/General/Forms/FormsRequiredHasError.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/General/Forms/FormsSmartDescriptions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/General/Forms/FormsSmartDescriptionsAllowedTags.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/General/Forms/FormsSmartDescriptionsLimit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/General/Images/ImageResponsive.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/General/Images/ImageShape.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/General/Tables/TableBordered.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/General/Tables/TableCondensed.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/General/Tables/TableHover.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/General/Tables/TableResponsive.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/General/Tables/TableStriped.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/JavaScript/Modals/ModalAnimation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/JavaScript/Modals/ModalBackdrop.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/JavaScript/Modals/ModalEnabled.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/JavaScript/Modals/ModalKeyboard.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/JavaScript/Modals/ModalShow.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/JavaScript/Modals/ModalSize.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/JavaScript/Popovers/PopoverAnimation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/JavaScript/Popovers/PopoverContainer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/JavaScript/Popovers/PopoverContent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/JavaScript/Popovers/PopoverDelay.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/JavaScript/Popovers/PopoverEnabled.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/JavaScript/Popovers/PopoverHtml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/JavaScript/Popovers/PopoverPlacement.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/JavaScript/Popovers/PopoverSelector.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/JavaScript/Popovers/PopoverTitle.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/JavaScript/Popovers/PopoverTrigger.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/JavaScript/Popovers/PopoverTriggerAutoclose.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/JavaScript/Tooltips/TooltipAnimation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/JavaScript/Tooltips/TooltipContainer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/JavaScript/Tooltips/TooltipDelay.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/JavaScript/Tooltips/TooltipEnabled.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/JavaScript/Tooltips/TooltipHtml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/JavaScript/Tooltips/TooltipPlacement.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/JavaScript/Tooltips/TooltipSelector.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/JavaScript/Tooltips/TooltipTrigger.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/Schemas.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/SettingBase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Setting/SettingInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/SettingManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Update/UpdateBase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/Update/UpdateInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Plugin/UpdateManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Theme.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/ThemeSettings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Utility/ArrayObject.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Utility/Attributes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Utility/Crypt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Utility/DrupalAttributes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Utility/Element.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Utility/Storage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Utility/StorageItem.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Utility/Unicode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/src/Utility/Variables.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/cdn/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/cdn/THEMENAME.libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/cdn/THEMENAME.starterkit.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/cdn/THEMENAME.theme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/cdn/config/install/THEMENAME.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/cdn/config/schema/THEMENAME.schema.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/cdn/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/cdn/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/cdn/logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/cdn/screenshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/cdn/templates/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/THEMENAME.libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/THEMENAME.starterkit.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/THEMENAME.theme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/config/install/THEMENAME.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/config/schema/THEMENAME.schema.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/images/required.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/less/bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/less/component/ajax.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/less/component/alert.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/less/component/field.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/less/component/file.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/less/component/filter.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/less/component/form.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/less/component/icon.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/less/component/navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/less/component/node.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/less/component/panel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/less/component/progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/less/component/table-drag.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/less/component/tabs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/less/component/toolbar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/less/jquery-ui/autocomplete.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/less/overrides.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/less/style.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/less/variable-overrides.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/screenshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/less/templates/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/THEMENAME.libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/THEMENAME.starterkit.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/THEMENAME.theme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/config/install/THEMENAME.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/config/schema/THEMENAME.schema.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/images/required.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/screenshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/scss/_default-variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/scss/_overrides.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/scss/component/_ajax.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/scss/component/_alert.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/scss/component/_field.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/scss/component/_file.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/scss/component/_filter.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/scss/component/_form.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/scss/component/_icon.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/scss/component/_navbar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/scss/component/_node.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/scss/component/_panel.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/scss/component/_progress-bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/scss/component/_table-drag.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/scss/component/_tabs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/scss/component/_toolbar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/scss/jquery-ui/_autocomplete.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/scss/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/starterkits/sass/templates/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/block/block--bare.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/block/block--local-actions-block.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/block/block--local-tasks-block.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/block/block--page-title-block.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/block/block--search.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/block/block--system-branding-block.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/block/block--system-menu-block--account.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/block/block--system-menu-block--main.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/block/block--system.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/block/block-list.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/block/block.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/bootstrap/bootstrap-carousel.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/bootstrap/bootstrap-dropdown.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/bootstrap/bootstrap-modal.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/bootstrap/bootstrap-panel.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/bootstrap/item-list--bootstrap-carousel-indicators.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/bootstrap/item-list--dropdown.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/field/field--node--field-image--article.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/field/field-multiple-value-form.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/field/field.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/file/file-link.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/file/file-upload-help.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/file/image-widget.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/filter/filter-tips.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/filter/text-format-wrapper.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/input/datetime-form.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/input/datetime-wrapper.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/input/form-element-label.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/input/form-element.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/input/input--button--split.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/input/input--button.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/input/input--form-control.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/input/input.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/input/select.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/input/textarea.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/menu/menu--account.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/menu/menu--main.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/menu/menu-local-task.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/menu/menu-local-tasks.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/menu/menu.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/node/node.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/system/breadcrumb.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/system/container.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/system/html.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/system/image.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/system/links.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/system/page-title.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/system/page.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/system/pager.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/system/progress-bar.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/system/region--no-wrapper.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/system/region.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/system/status-messages.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/system/system-themes-page.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/system/table.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/views/views-exposed-form.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/views/views-mini-pager.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/views/views-view-table.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/themes/bootstrap/templates/views/views-view.html.twig" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,18 +600,48 @@
       <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="450">
+              <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Jenkinsfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proxy.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proxy.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Jenkinsfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -40,16 +653,32 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/test" />
+        <entry key="$PROJECT_DIR$" value="bug/test" />
       </map>
     </option>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="feature/test" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/proxy.yml" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/Jenkinsfile" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/app/src/test.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -82,7 +711,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -95,8 +723,41 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proxy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proxy" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proxy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proxy" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,41 +862,8 @@
       <updated>1491416396218</updated>
       <workItem from="1491416397371" duration="10802000" />
       <workItem from="1491587989978" duration="1169000" />
-    </task>
-    <task id="LOCAL-00001" summary="test">
-      <created>1491588028443</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1491588028444</updated>
-    </task>
-    <task id="LOCAL-00002" summary="test">
-      <created>1491588188828</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1491588188828</updated>
-    </task>
-    <task id="LOCAL-00003" summary="test">
-      <created>1491588247918</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1491588247918</updated>
-    </task>
-    <task id="LOCAL-00004" summary="test">
-      <created>1491588896828</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1491588896828</updated>
-    </task>
-    <task id="LOCAL-00005" summary="test">
-      <created>1491589031658</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1491589031658</updated>
+      <workItem from="1491648869109" duration="603000" />
+      <workItem from="1491750532121" duration="2118000" />
     </task>
     <task id="LOCAL-00006" summary="test">
       <created>1491589080494</created>
@@ -251,27 +879,356 @@
       <option name="project" value="LOCAL" />
       <updated>1491589148517</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test">
+      <created>1491589996001</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1491589996001</updated>
+    </task>
+    <task id="LOCAL-00009" summary="test">
+      <created>1491590057826</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1491590057826</updated>
+    </task>
+    <task id="LOCAL-00010" summary="test">
+      <created>1491590889095</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1491590889095</updated>
+    </task>
+    <task id="LOCAL-00011" summary="test">
+      <created>1491591258593</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1491591258593</updated>
+    </task>
+    <task id="LOCAL-00012" summary="test">
+      <created>1491591343938</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1491591343938</updated>
+    </task>
+    <task id="LOCAL-00013" summary="test">
+      <created>1491591420538</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1491591420538</updated>
+    </task>
+    <task id="LOCAL-00014" summary="test">
+      <created>1491591435996</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1491591435996</updated>
+    </task>
+    <task id="LOCAL-00015" summary="test">
+      <created>1491591575505</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1491591575505</updated>
+    </task>
+    <task id="LOCAL-00016" summary="test">
+      <created>1491591706558</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1491591706558</updated>
+    </task>
+    <task id="LOCAL-00017" summary="test">
+      <created>1491591763682</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1491591763682</updated>
+    </task>
+    <task id="LOCAL-00018" summary="test">
+      <created>1491592710038</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1491592710038</updated>
+    </task>
+    <task id="LOCAL-00019" summary="test">
+      <created>1491592758066</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1491592758066</updated>
+    </task>
+    <task id="LOCAL-00020" summary="test">
+      <created>1491592888345</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1491592888345</updated>
+    </task>
+    <task id="LOCAL-00021" summary="test">
+      <created>1491592906932</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1491592906932</updated>
+    </task>
+    <task id="LOCAL-00022" summary="test">
+      <created>1491593726197</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1491593726197</updated>
+    </task>
+    <task id="LOCAL-00023" summary="test">
+      <created>1491594562224</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1491594562224</updated>
+    </task>
+    <task id="LOCAL-00024" summary="test">
+      <created>1491594594876</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1491594594876</updated>
+    </task>
+    <task id="LOCAL-00025" summary="test">
+      <created>1491594658690</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1491594658690</updated>
+    </task>
+    <task id="LOCAL-00026" summary="test">
+      <created>1491594714213</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1491594714213</updated>
+    </task>
+    <task id="LOCAL-00027" summary="test">
+      <created>1491594775393</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1491594775393</updated>
+    </task>
+    <task id="LOCAL-00028" summary="test">
+      <created>1491594848869</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1491594848869</updated>
+    </task>
+    <task id="LOCAL-00029" summary="test">
+      <created>1491594909458</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1491594909458</updated>
+    </task>
+    <task id="LOCAL-00030" summary="test">
+      <created>1491594980208</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1491594980208</updated>
+    </task>
+    <task id="LOCAL-00031" summary="test">
+      <created>1491595023315</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1491595023315</updated>
+    </task>
+    <task id="LOCAL-00032" summary="test">
+      <created>1491595217954</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1491595217954</updated>
+    </task>
+    <task id="LOCAL-00033" summary="test">
+      <created>1491595346545</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1491595346545</updated>
+    </task>
+    <task id="LOCAL-00034" summary="test">
+      <created>1491595452348</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1491595452348</updated>
+    </task>
+    <task id="LOCAL-00035" summary="test">
+      <created>1491595604314</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1491595604314</updated>
+    </task>
+    <task id="LOCAL-00036" summary="test">
+      <created>1491596306113</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1491596306113</updated>
+    </task>
+    <task id="LOCAL-00037" summary="test">
+      <created>1491596798145</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1491596798145</updated>
+    </task>
+    <task id="LOCAL-00038" summary="test">
+      <created>1491596863519</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1491596863519</updated>
+    </task>
+    <task id="LOCAL-00039" summary="test">
+      <created>1491596904377</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1491596904377</updated>
+    </task>
+    <task id="LOCAL-00040" summary="test">
+      <created>1491597147177</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1491597147177</updated>
+    </task>
+    <task id="LOCAL-00041" summary="test">
+      <created>1491598393258</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1491598393258</updated>
+    </task>
+    <task id="LOCAL-00042" summary="test">
+      <created>1491598893659</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1491598893659</updated>
+    </task>
+    <task id="LOCAL-00043" summary="test">
+      <created>1491599060516</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1491599060516</updated>
+    </task>
+    <task id="LOCAL-00044" summary="test">
+      <created>1491599138071</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1491599138071</updated>
+    </task>
+    <task id="LOCAL-00045" summary="test">
+      <created>1491599445565</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1491599445565</updated>
+    </task>
+    <task id="LOCAL-00046" summary="test">
+      <created>1491600952402</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1491600952402</updated>
+    </task>
+    <task id="LOCAL-00047" summary="test">
+      <created>1491601120251</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1491601120251</updated>
+    </task>
+    <task id="LOCAL-00048" summary="test">
+      <created>1491601179535</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1491601179535</updated>
+    </task>
+    <task id="LOCAL-00049" summary="test">
+      <created>1491601974587</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1491601974587</updated>
+    </task>
+    <task id="LOCAL-00050" summary="test">
+      <created>1491602016494</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1491602016494</updated>
+    </task>
+    <task id="LOCAL-00051" summary="test">
+      <created>1491602110289</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1491602110289</updated>
+    </task>
+    <task id="LOCAL-00052" summary="test">
+      <created>1491602198109</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1491602198109</updated>
+    </task>
+    <task id="LOCAL-00053" summary="test">
+      <created>1491602446972</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1491602446972</updated>
+    </task>
+    <task id="LOCAL-00054" summary="test">
+      <created>1491602488681</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1491602488682</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11971000" />
+    <option name="totallyTimeSpent" value="26488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1020" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18696581" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19123931" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -290,11 +1247,63 @@
     <MESSAGE value="test" />
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
+  <component name="WindowStateProjectService">
+    <state width="210" height="291" key="Git.Branch.Popup" />
+    <state width="210" height="291" key="Git.Branch.Popup/0.0.1920.1080" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -327,18 +1336,99 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="198">
+          <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
           <folding />
         </state>
       </provider>
